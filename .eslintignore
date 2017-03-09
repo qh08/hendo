@@ -1,2 +1,4 @@
 build/*.js
 config/*.js
+src/models/*.js
+src/configs/*.js
