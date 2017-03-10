@@ -1,3 +1,5 @@
+export const NAME_SPACE = 'home'
+
 export default {
   state: {
     userList: [],

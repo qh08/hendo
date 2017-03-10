@@ -1,7 +1,9 @@
-import home from '../models/home.js'
+const modelFiles = require.context('../models', true, /^\.\/.*\.js$/)
+let modules = {}
 
-const modules = {
-  home
-}
+modelFiles.keys().forEach((file) => {
+  const exp = modelFiles(file)
+  modules[exp['NAME_SPACE']] = exp.default
+})
 
 export default modules

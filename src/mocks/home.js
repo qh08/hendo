@@ -1,6 +1,8 @@
 import Mock from 'mockjs'
 import mockStorage from '../configs/mockStorage'
 
+export const NAME_SPACE = 'home'
+
 export default {
   'GET /api/user' (req, res) {
     let response = {
