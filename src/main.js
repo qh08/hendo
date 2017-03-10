@@ -28,12 +28,12 @@ Vue.config.productionTip = false
 
 /* eslint-disable no-new */
 new Vue({
-  el: '#app',
-  router: new VueRouter({
-    routes: routes
-  }),
-  store: new Vuex.Store({
-    modules: model
-  }),
-  template: '<router-view></router-view>'
+    el: '#app',
+    router: new VueRouter({
+        routes: routes
+    }),
+    store: new Vuex.Store({
+        modules: model
+    }),
+    template: '<router-view></router-view>'
 })
