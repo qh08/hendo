@@ -32,5 +32,5 @@ function serialize(str) {
         const thisArray = paramArray[i].split('=')
         query[thisArray[0]] = thisArray[1]
     }
-    return Array
+    return query
 }
